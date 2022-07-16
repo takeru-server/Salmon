@@ -11,13 +11,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* */html {
     height: -webkit-fill-available;
 /*    height  : 100%; */
-/*    overflow: hidden; */
+/*    overflow: hidden;試しにここ復活*/
 }
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
 /*    height  : 100%; */
-    overflow: auto;
+/*    overflow: auto; 試しにここ復活*/
 }/* */
 
 /* ここまで */
