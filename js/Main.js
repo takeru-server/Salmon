@@ -1,4 +1,5 @@
 // ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
+/*
 function ready(){
     var cHeight = $('html').height();
     var bHeight = window.parent.screen.height;
@@ -7,7 +8,7 @@ function ready(){
     } else {
         iNoBounce.disable();
     }
-｝
+｝*/
 // バウンス削除ここまで
 
 var camera, scene, renderer,
