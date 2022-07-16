@@ -1,6 +1,6 @@
 // ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
 //
-function ready(){
+$(document).ready(function(){
     var cHeight = $('html').height();
     var bHeight = window.parent.screen.height;
     if ((cHeight - bHeight) <= 0){
