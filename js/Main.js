@@ -135,8 +135,7 @@ function loadOBJ( callback ) {
     // mtl読み込み
     // mod_start_2020/04/01
     // mtlLoader.load( 'tuna_r.mtl', function( materials ) {
-    // mtlLoader.load( 'TGRSHARK.MTL', function( materials ) {
-    mtlLoader.load( '', function( materials ) {
+    mtlLoader.load( 'TGRSHARK.MTL', function( materials ) {
 	// mod_end
         materials.preload();
         var objLoader = new THREE.OBJLoader();
@@ -145,8 +144,7 @@ function loadOBJ( callback ) {
         // obj読み込み
         // mod_start_2020/04/01
         // objLoader.load( 'tuna_r.obj', function ( object ) {
-        // objLoader.load( 'TGRSHARK.OBJ', function ( object ) {
-        objLoader.load( 'Shark.obj', function ( object ) {
+        objLoader.load( 'TGRSHARK.OBJ', function ( object ) {
 		// mod_end
             objmodel = object.clone();
             // mod_start_2020/04/02
