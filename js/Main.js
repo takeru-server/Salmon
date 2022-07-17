@@ -23,7 +23,7 @@ init();
 
 // ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
 
-$(document).ready(function(){
+$(function(){
     var cHeight = $('html').height();
     var bHeight = window.parent.screen.height;
     if ((cHeight - bHeight) <= 0){
@@ -31,7 +31,7 @@ $(document).ready(function(){
     } else {
         iNoBounce.disable();
     }
-} 
+});
 // バウンス削除ここまで
 
 
