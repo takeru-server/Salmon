@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  min-height: 100vh;  /* add_2022/07/17 js/Main.jsに2022/07/17に書いたコードのおかげで、このソースファイルの上の方に書いてある2022/07/17に追加したコードを書かなくても、bodyのサイズだけ指定してあげれば大丈夫になった */
+  min-height: 100vh;  /* add_2022/07/17 js/Main.jsに2022/07/17に書いたコードのおかげで、このソースファイルの上の方に書いてある2022/07/17に追加したコードを書かなくても、ここの行でbodyの最小の高さだけ指定してあげれば大丈夫になった */
 }
 
 ol, ul {
