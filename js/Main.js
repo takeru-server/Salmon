@@ -1,4 +1,3 @@
-
 var camera, scene, renderer,
     width = window.innerWidth,
     height = window.innerHeight,
@@ -21,26 +20,14 @@ init();
 // render();
 // animate();
 
-// ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
-
-/*
-$(function(){
-    var cHeight = $('html').height();
-    var bHeight = window.parent.screen.height;
-    if ((cHeight - bHeight) <= 0){
-        iNoBounce.enable();
-    } else {
-        iNoBounce.disable();
-    }
-});*/
-
-    //スクロール禁止
+// add_start_2022/07/17
+//オーバースクロール禁止　参考：https://qiita.com/de_teiu_tkg/items/3bdb64168978ee877090#ios-safari%E3%81%A7%E3%81%AE%E3%83%90%E3%82%A6%E3%83%B3%E3%82%B9%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%92%E9%98%BB%E6%AD%A2
 $(() => {
   document.addEventListener('touchmove', function(event){
     event.preventDefault();
   }, { passive: false });
 })
-// バウンス削除ここまで
+// add_end
 
 
 function init() {
