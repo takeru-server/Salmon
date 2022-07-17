@@ -144,7 +144,8 @@ function loadOBJ( callback ) {
         // obj読み込み
         // mod_start_2020/04/01
         // objLoader.load( 'tuna_r.obj', function ( object ) {
-        objLoader.load( 'TGRSHARK.OBJ', function ( object ) {
+        // objLoader.load( 'TGRSHARK.OBJ', function ( object ) {
+        objLoader.load( 'Shark.obj', function ( object ) {
 		// mod_end
             objmodel = object.clone();
             // mod_start_2020/04/02
