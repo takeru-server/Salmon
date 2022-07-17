@@ -9,16 +9,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* バウンス削除　↓2つダメなら消す */
 /* */html {
-    min-height: 150vh;
     height: -webkit-fill-available;
 /*    height  : 100%; */
-/*    overflow: hidden;試しにここ復活*/
+    overflow: hidden;
 }
 body {
     min-height: 150vh;
     min-height: -webkit-fill-available;
 /*    height  : 100%; */
-/*    overflow: auto; 試しにここ復活*/
+    overflow: auto;
 }/* */
 
 /* ここまで */
