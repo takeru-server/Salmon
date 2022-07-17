@@ -135,7 +135,8 @@ function loadOBJ( callback ) {
     // mtl読み込み
     // mod_start_2020/04/01
     // mtlLoader.load( 'tuna_r.mtl', function( materials ) {
-    mtlLoader.load( 'TGRSHARK.MTL', function( materials ) {
+    // mtlLoader.load( 'TGRSHARK.MTL', function( materials ) {
+    mtlLoader.load( '', function( materials ) {
 	// mod_end
         materials.preload();
         var objLoader = new THREE.OBJLoader();
