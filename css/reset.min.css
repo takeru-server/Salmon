@@ -7,20 +7,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-/* バウンス削除　↓2つダメなら消す 参考：https://coliss.com/articles/build-websites/operation/css/css-cover-the-entire-height-of-the-screen.html */
+/* add_start_2022/07/17 */
+/* iPhoneのSafariでページ1番上までスクロールした際にリロードされるのを削除 参考：https://coliss.com/articles/build-websites/operation/css/css-cover-the-entire-height-of-the-screen.html */
 html {
     height: -webkit-fill-available;
-/*    height  : 100%; */
     overflow: hidden;
 }
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
-/*    height  : 100%; */
     overflow: auto;
-}/* */
+} */
 
-/* ここまで */
+/* add_end */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block
