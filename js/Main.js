@@ -34,11 +34,12 @@ $(function(){
     }
 });*/
 
+    //スクロール禁止
 $(() => {
   document.addEventListener('touchmove', function(event){
     event.preventDefault();
   }, { passive: false });
-}
+})
 // バウンス削除ここまで
 
 
