@@ -1,15 +1,3 @@
-// ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
-
-$(document).ready(function(){
-    var cHeight = $('html').height();
-    var bHeight = window.parent.screen.height;
-    if ((cHeight - bHeight) <= 0){
-        iNoBounce.enable();
-    } else {
-        iNoBounce.disable();
-    }
-} 
-// バウンス削除ここまで
 
 var camera, scene, renderer,
     width = window.innerWidth,
@@ -32,6 +20,20 @@ loadOBJ( animate );
 init();
 // render();
 // animate();
+
+// ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
+
+$(document).ready(function(){
+    var cHeight = $('html').height();
+    var bHeight = window.parent.screen.height;
+    if ((cHeight - bHeight) <= 0){
+        iNoBounce.enable();
+    } else {
+        iNoBounce.disable();
+    }
+} 
+// バウンス削除ここまで
+
 
 function init() {
 
