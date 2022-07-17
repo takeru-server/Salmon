@@ -1,7 +1,7 @@
 
 var camera, scene, renderer,
     width = window.innerWidth,
-    height = window.innerHeight,
+    height = window.innerHeight * 1.5,
     lastAnimTime = window.performance.now(),
     fishArr = [],
     // mod_start_2020/04/02
