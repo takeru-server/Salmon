@@ -1,7 +1,7 @@
 
 var camera, scene, renderer,
     width = window.innerWidth,
-    height = window.innerHeight * 1.5,
+    height = window.innerHeight,
     lastAnimTime = window.performance.now(),
     fishArr = [],
     // mod_start_2020/04/02
@@ -23,6 +23,7 @@ init();
 
 // ↓バウンス削除　参考：https://cheat.co.jp/blog/archives/3183
 
+/*
 $(function(){
     var cHeight = $('html').height();
     var bHeight = window.parent.screen.height;
@@ -31,7 +32,13 @@ $(function(){
     } else {
         iNoBounce.disable();
     }
-});
+});*/
+
+$(() => {
+  document.addEventListener('touchmove', function(event){
+    event.preventDefault();
+  }, { passive: false });
+}
 // バウンス削除ここまで
 
 
