@@ -27,7 +27,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  min-height: 100vh;
+  min-height: 100vh;  /* add_2022/07/17 */
 }
 
 ol, ul {
