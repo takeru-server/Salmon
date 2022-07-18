@@ -7,14 +7,20 @@ newmtl tsk_body
   Kd 0 0 0
   Ks 0 0 0
   illum 2
-  map_Kd images\tshark.tif
+# mod_start_2022/07/18
+#  map_Kd images\tshark.tif
+  map_Kd img\Shark_body.jpg
+# mod_end
 
 newmtl tsk_iris
   Ka 0 0 0
   Kd 0 0 0
   Ks 0 0 0
   illum 2
-  map_Kd images\eye_brn1.TIF
+# mod_start_2022/07/18
+#  map_Kd images\eye_brn1.TIF
+  map_Kd img\Shark_eyes.jpg
+# mod_end
 
 newmtl tsk_eye
   Ka 0 0 0
