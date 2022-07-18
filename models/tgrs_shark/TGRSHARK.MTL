@@ -9,7 +9,7 @@ newmtl tsk_body
   illum 2
 # mod_start_2022/07/18
 #  map_Kd images\tshark.tif
-  map_Kd img\Shark_body.jpg
+  map_Kd ./img/Shark_body.jpg
 # mod_end
 
 newmtl tsk_iris
@@ -19,7 +19,7 @@ newmtl tsk_iris
   illum 2
 # mod_start_2022/07/18
 #  map_Kd images\eye_brn1.TIF
-  map_Kd img\Shark_eyes.jpg
+  map_Kd ./img/Shark_eyes.jpg
 # mod_end
 
 newmtl tsk_eye
